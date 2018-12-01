@@ -21,6 +21,7 @@
     overflow: hidden; }
 
 #santa {
+    display: none;
     position: absolute;
     left: 50%;
     bottom: 0;
