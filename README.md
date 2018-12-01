@@ -9,18 +9,15 @@ This project was inspired by [Christmas Advent Ideas](https://www.homestoriesato
 
 [License](http://github.com)
 
-[Issue Tracker](http://github.com)
+[Live Version](https://shadyalexcodes.github.io/Holiday-Calendar/index.html)
 
 # Notice
 
-The photo below was taken on 11/29/18, and maybe inacurate. This image will be updated throughout time, but this again was the structural build for this calendar.
+The photo below was taken on 11/30/18, and may be inacurate. This image will be updated throughout time as I continously update the webiste, but this is the last known build for this calendar.
 
-![alt text](https://i.imgur.com/pNckr1w.png)
+![alt text](https://i.imgur.com/6MpePwA.png)
 
 # TODO
 
 ### General
- * Clean up numerical placings
- * Redesign page to incorperate the statement "Happy New Years", alternatively make this looks nicer.
  * Create a system that will defaultly release the numbers daily
- * Figure out a cute/creative way to display the dots, possibly a card flip?
