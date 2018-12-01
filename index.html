@@ -13,6 +13,7 @@
         var keys = [];
         var code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];
         $("#santa").hide();
+        $(".holiday3").hide();
 
         $(document).keydown(function (keyEvent) {
             keys.push(keyEvent.keyCode);
@@ -21,6 +22,8 @@
             }
             if (keys.toString() == code.toString()) {
                 $("#santa").slideDown('slow');
+                $(".holiday3").slideDown('slow');
+                $(".holiday2").hide();
                 $(".dot").hide();
                 $(".dot_completed").hide();
             }
@@ -32,8 +35,9 @@
 <body>
 <div class="newyears">
     <div class="holiday-lights"></div>
-    <p class="holiday1">Tis the season!</p>
+    <p class="holiday1">'Tis the season!</p>
     <p class="holiday2">Come back DAILY to complete a challenge</p>
+    <p class="holiday3">Ho! Ho! Ho!<br> You've found my little surprise!<br>Happy Holidays!</p>
 </div>
 <br>
 <br>
@@ -289,6 +293,8 @@
     <br>
     <br>
     <div class="window">
+        <br>
+        <br>
         <div id="santa">
             <div class="head">
                 <div class="face">
@@ -306,6 +312,7 @@
                 <div class="ears"></div>
             </div>
             <div class="body"></div>
+            <br>
         </div>
     </div>
 </div>
