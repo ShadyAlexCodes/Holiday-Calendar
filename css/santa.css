@@ -35,7 +35,6 @@
     background: #de2f32;
     position: relative;
     border-radius: 50%;
-    padding-bottom: 25px;
     top: 0;
     -webkit-animation: bodyLaugh 4s linear infinite;
     -moz-animation: bodyLaugh 4s linear infinite;
@@ -48,7 +47,6 @@
     -o-transform: translateY(50%);
     transform: translateY(50%); }
 #santa .body:before {
-    padding-bottom: 25px;
     content: " ";
     width: 7px;
     height: 7px;
