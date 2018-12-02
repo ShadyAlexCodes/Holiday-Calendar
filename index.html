@@ -14,6 +14,7 @@
         var code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];
         $("#santa").hide();
         $(".holiday3").hide();
+        $("#answerInput").hide();
 
         $(document).keydown(function (keyEvent) {
             keys.push(keyEvent.keyCode);
@@ -28,7 +29,36 @@
                 $(".dot_completed").hide();
             }
         });
+        $(".answerme").on('click', function() {
+                $(".holiday2").hide();
+                $(".dot").hide();
+                $(".dot_completed").hide();
+                $('#answerInput').slideDown('fadeIn');
+            });
     });
+
+    function answerClicked() {
+        var answer = document.getElementById('questionAnswer').toString().toLowerCase();
+
+        var correctAnswers = ['vint cerf', 'Robert E. Kahn', 'Robert Kahn'].toString().toLowerCase();
+
+        if(inArray(answer, correctAnswers)) {
+            window.alert("Correct answer!");
+        } else {
+            window.alert("Incorrect answer!");
+        }
+    }
+
+
+    function inArray(needle, haystack) {
+        var length = haystack.length;
+        for(var i = 0; i < length; i++) {
+            if(haystack[i] == needle)
+                return true;
+        }
+        return false;
+    }
+
 </script>
 
 
@@ -38,25 +68,29 @@
     <p class="holiday1">'Tis the season!</p>
     <p class="holiday2">Come back DAILY to complete a challenge</p>
     <p class="holiday3">Ho! Ho! Ho!<br> You've found my little surprise!<br>Happy Holidays!</p>
+    <div id="answerInput">
+        <p class="holiday5">
+
+        <div class="group">
+            <input type="text" id="questionAnswer" required placeholder="Answer me!">
+        </div>
+
+            <input type="submit" onclick="answerClicked()"></input>
+        </p>
+    </div>
 </div>
 <br>
 <br>
 <a href="#_" class="lightbox" id="day1">
-    <br>
-    <br>
-    <br>
-    <img src="https://i.imgur.com/zd3ZK88.png">
-    <br>
-    <br>
-    <input type="text" name="firstname" value="Mickey">
+    <p class="holiday4">Day 1:<br> Who created the internet</p>
+    <object><p class="answerme"><a href="#test" onclick="document.getElementsByClassName('.dot').hide();">Answer me!</a></p></object>
+
 </a>
 <a href="#_" class="lightbox" id="locked">
     <img src="https://i.imgur.com/DYxfIoh.png">
 </a>
-<br>
-<br>
-
 <div style="text-align:center;">
+
     <span class="dot_completed">
         <a href="#day1">
             <p class="dotnumber">
@@ -315,6 +349,7 @@
             <br>
         </div>
     </div>
+
 </div>
 </body>
 </html>
