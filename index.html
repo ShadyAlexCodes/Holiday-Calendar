@@ -37,12 +37,30 @@
             });
     });
 
+    
+    function answerSubmitted() {
+    var answer = document.getElementById('questionAnswer').toLowerCase();
+
+    const correctAnswer = ['vint cerf', '4'];
+        
+    if(correctAnswers.includes(answer) {
+            window.alert("Correct answer!");
+        } else {
+            window.alert("Incorrect answer!");
+        }
+
+    
+    console.log(correctAnswer.includes(answer));                                
+    
+    }
+    
+    
     function answerClicked() {
-        var answer = document.getElementById('questionAnswer').toString().toLowerCase();
+        var answer = document.getElementById('questionAnswer').toLowerCase();
 
-        var correctAnswers = ['vint cerf', 'Robert E. Kahn', 'Robert Kahn'].toString().toLowerCase();
+        var correctAnswers = ['vint cerf', 'Robert E. Kahn', 'Robert Kahn'].toLowerCase();
 
-        if(inArray(answer, correctAnswers)) {
+        if(correctAnswers.includes(answer) {
             window.alert("Correct answer!");
         } else {
             window.alert("Incorrect answer!");
@@ -75,7 +93,7 @@
             <input type="text" id="questionAnswer" required placeholder="Answer me!">
         </div>
 
-            <input type="submit" onclick="answerClicked()"></input>
+            <input type="submit" onclick="answerSubmitted()"></input>
         </p>
     </div>
 </div>
