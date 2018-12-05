@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d9b5ed0-0d4f-41a6-b268-acfd485ecfad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -19,8 +20,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="67" column="93" selection-start-line="67" selection-start-column="93" selection-end-line="67" selection-end-column="93" />
+            <state relative-caret-position="680">
+              <caret line="40" column="135" selection-start-line="40" selection-start-column="135" selection-end-line="40" selection-end-column="135" />
+              <folding>
+                <element signature="e#3621#3647#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +79,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2766" />
-    <option name="y" value="-21" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -163,7 +167,9 @@
       <workItem from="1543621286279" duration="7185000" />
       <workItem from="1543683138792" duration="16170000" />
       <workItem from="1543769279391" duration="2912000" />
-      <workItem from="1543892431887" duration="489000" />
+      <workItem from="1543892431887" duration="1386000" />
+      <workItem from="1543982983732" duration="70000" />
+      <workItem from="1544020112125" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="Updated all files for christmas season">
       <created>1543682820377</created>
@@ -228,11 +234,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543773656554</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Day 4 update!">
+      <created>1543892932630</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543892932630</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed a spelling error!!">
+      <created>1543901051077</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543901051077</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30890000" />
+    <option name="totallyTimeSpent" value="32574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,7 +264,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -277,7 +297,9 @@
     <MESSAGE value="Added more/fixed issues with santa" />
     <MESSAGE value="Updating version to be most up to date" />
     <MESSAGE value="Day 2 didn't update last night, fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2 didn't update last night, fixing" />
+    <MESSAGE value="Day 4 update!" />
+    <MESSAGE value="Fixed a spelling error!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a spelling error!!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -306,8 +328,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="67" column="93" selection-start-line="67" selection-start-column="93" selection-end-line="67" selection-end-column="93" />
+        <state relative-caret-position="680">
+          <caret line="40" column="135" selection-start-line="40" selection-start-column="135" selection-end-line="40" selection-end-column="135" />
+          <folding>
+            <element signature="e#3621#3647#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
