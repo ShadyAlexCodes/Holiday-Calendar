@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/santa.css">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <script>
@@ -36,18 +37,18 @@
             });
     });
     function answerClicked() {
-        var answer = document.getElementById('questionAnswer');
+        var answer = document.getElementById('questionAnswer').value.toLowerCase();
         var correctAnswers = ['vint cerf', 'robert e. kahn', 'robert kahn', 'print.ln("hello world!");', '#003366', '003366'];
 //      console.log(answer);
 //      console.log(correctAnswers);
 //      console.log(correctAnswers.includes(answer));
-
-        if(correctAnswers.includes(answer.toLowerCase())) {
-          window.alert('Correct Answer!');
+        if(correctAnswers.includes(answer)) {
+              swal("Great job!", "You got the question correct! Click 'Tis the season to get to the main page!", "success");
+              //window.location.href='https://shadyalexcodes.github.io/Holiday-Calendar/index.html';
         } else {
-          window.alert('Wrong Answer!');
+              swal("Awww man!", "You got the question wrong!", "error");
         }
-    }
+    };
 </script>
 
 
@@ -61,7 +62,7 @@
         <p class="holiday5">
 
         <div class="group">
-            <input type="text" id="questionAnswer" required placeholder="Answer me!">
+            <input type="text" id="questionAnswer" placeholder="Answer me!">
         </div>
 
             <input type="submit" onclick="answerClicked()"></input>

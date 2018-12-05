@@ -1,11 +1,14 @@
 # Holiday Calendar
 
-A daily New Years count down coding challenge for young kids/students across the world. Can you complete them all? 
+A daily New Years count down coding challenge for young kids/students across the world. Can you complete them all?
 
-Visit the [Wiki](http://github.com) for more information. 
+Visit the [Wiki](http://github.com) for more information.
 
 ### Contribution
-This project was inspired by [Christmas Advent Ideas](https://www.homestoriesatoz.com/holiday-ideas/20-christmas-advent-calendar-ideas.html) 
+This project was inspired by [Christmas Advent Ideas](https://www.homestoriesatoz.com/holiday-ideas/20-christmas-advent-calendar-ideas.html)
+A huge thanks to @mm909, and @quijas4101 for their help with the javascript.
+
+[Sweet Alert](https://sweetalert.js.org/) -- Find the really cool javascript alets here!
 
 [License](http://github.com)
 
