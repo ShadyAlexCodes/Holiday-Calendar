@@ -38,7 +38,7 @@
     });
     function answerClicked() {
         var answer = document.getElementById('questionAnswer').value.toLowerCase();
-        var correctAnswers = ['vint cerf', 'robert e. kahn', 'robert kahn', 'print.ln("hello world!");', '#003366', '003366', 'lossless', '1995', 'bill gates'];
+        var correctAnswers = ['vint cerf', 'robert e. kahn', 'robert kahn', 'print.ln("hello world!");', '#003366', '003366', 'lossless', '1995', 'bill gates', 'september 4, 1998', '9/4/1998'];
 //      console.log(answer);
 //      console.log(correctAnswers);
 //      console.log(correctAnswers.includes(answer));
@@ -103,6 +103,10 @@
 <a href="#_" class="lightbox" id="day8">
     <p class="holiday4">Day 8:<br>The first computer programmer was a female,<br> named Ada Lovelace.</p>
     <object><p class="holiday5">Facts!</p></object>
+</a>
+<a href="#_" class="lightbox" id="day9">
+    <p class="holiday4">Day 8:<br>When did google open?</p>
+    <object><p class="answerme"><a href="#test">Answer me!</a></p></object>
 </a>
 <a href="#_" class="lightbox" id="locked">
     <img src="https://i.imgur.com/DYxfIoh.png">
@@ -171,8 +175,8 @@
             </p>
         </a>
     </span>
-    <span class="dot">
-        <a href="#locked">
+    <span class="dot_completed">
+        <a href="#day9">
             <p class="dotnumber">
             9
             </p>
