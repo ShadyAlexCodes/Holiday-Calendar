@@ -37,16 +37,12 @@
             });
     });
     function answerClicked() {
-        var answer = document.getElementById('questionAnswer').value.toLowerCase();
-        var correctAnswers = ['vint cerf', 'robert e. kahn', 'robert kahn', 'print.ln("hello world!");',
+        let answer = document.getElementById('questionAnswer').value.toLowerCase();
+        let correctAnswers = ['vint cerf', 'robert e. kahn', 'robert kahn', 'print.ln("hello world!");',
             '#003366', '003366', 'lossless', '1995', 'bill gates', 'september 4, 1998', '9/4/1998', '2004',
-        ];
-//      console.log(answer);
-//      console.log(correctAnswers);
-//      console.log(correctAnswers.includes(answer));
+        ];;
         if(correctAnswers.includes(answer)) {
               swal("Great job!", "You got the question correct! Click 'Tis the season to get to the main page!", "success");
-              //window.location.href='https://shadyalexcodes.github.io/Holiday-Calendar/index.html';
         } else {
               swal("Awww man!", "You got the question wrong!", "error");
         }
