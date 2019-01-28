@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas|Rock+Salt');
 
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    }
 
 /* HTML/BODY */
 
@@ -14,6 +19,7 @@ html, body {
 body {  
     display: table;
     margin: 0;
+    width: 100%;
     height: 100%;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -46,7 +52,6 @@ a:hover {
     font-size: 100px;
     font-family: 'Mountains of Christmas', cursive;
     text-align: center;
-    color: white;
     color: #FF3562;
 }
 
@@ -70,23 +75,27 @@ a:hover {
 }
 
 
+
 /* Navigation Bar */
 
 #navbar {
     font-family: 'Raleway', sans-serif;
     position: fixed;
-    width: 100%;
+    width: 100vh;
     padding: 1rem;
     display: flex;
 }
 
-#navbar .name {
+.name {
     font-size: 25px;
     color: #efefef;
     cursor: default;
     margin-top: 35px;
     margin-left: 25px;
+    z-index: 99999;
 }
+
+
 
 /* Header  */
 
@@ -98,7 +107,6 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  width: 100%;
   margin: 0;
   padding: 0;
   color: white;
@@ -249,28 +257,45 @@ a:hover {
 }
 
 .dotnumber {
-    font-size: 46px;
-    font-family: 'Spectral SC', serif;
+    font-size: 55px;
+    font-family: 'Mountains of Christmas', cursive;
     justify-content: center;
-    margin-top: 1px;
+    margin-top: -6px;
 }
 
 
-.values {
-    height: 100vh;
-    background-image: url('http://getskeleton.com/examples/landing/images/values-bg.jpg');
-    background-size: cover;
+/* Github User */
+
+.github_button {
+    font-family: 'Thasadith', sans-serif;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+    right: 8px;
+}
+
+.github_button img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+/* Code Walkthrough */
+
+.dot_example {
+    height: 25px;
+    width: 25px;
+    background-color: #FF3562;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #FF3562;
+    border-color: #FF3562;
     color: #fff;
-    padding-bottom: 5rem;
-  }
-  .value-multiplier {
-    margin-bottom: .5rem;
-    color: #11DFC7;
-  }
-  .value-heading {
-    margin-bottom: .3rem;
-  }
-  .value-description {
-    opacity: .8;
-    font-weight: 300;
-  }
+}
+.codeBlock {
+    background-color: rgba(60, 73, 85, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
