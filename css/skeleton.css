@@ -41,10 +41,68 @@
   float: left;
   box-sizing: border-box; }
 
+@media (max-width: 549px) {
+    .container {
+      padding-left: 0;
+    }
+  
+    .row .center h1 {
+      margin-top: 200px;
+      font-size: 75px;
+    }
+  
+    .header .paint-stroke {
+      margin-bottom: -25px;
+    }
+  
+    #downArrow a {
+      padding-top: 20px;
+    }
+    .dot {
+      height: 5vh;
+      width: 5vh;
+      background-color: #034f20;
+      color: #fff;
+      font-size: 12px;
+      border-radius: 50%;
+      display: inline-block;
+      flex-direction: column;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  .dot a:hover {
+    color: #FF3562;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s;
+}
+
+.dot_completed {
+    height: 5vh;
+    width: 5vh;
+    background-color: #FF3562;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dotnumber {
+    font-size: 25px;
+    font-family: 'Mountains of Christmas', cursive;
+    justify-content: center;
+    margin-top: 1.5px;
+}
+
+  
+  
+}
+
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    /* width: 85%; */
     padding: 0; }
 }
 
@@ -156,11 +214,10 @@ p {
 
 
 /* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #1EAEDB; }
 a:hover {
-  color: #0FA0CE; }
+  color: #0FA0CE; }*/
 
 
 /* Buttons
